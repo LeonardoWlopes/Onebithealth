@@ -1,10 +1,12 @@
 import React from 'react';
 import {View, Text} from 'react-native'
 
+import styles from './Style'
+
 const Title = () => {
     return ( 
-        <View>
-            <Text>OnebitHealth</Text>
+        <View style={styles.boxTitle}>
+            <Text style={styles.textTitle}>OnebitHealth</Text>
         </View>
      );
 }
